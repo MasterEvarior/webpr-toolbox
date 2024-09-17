@@ -3,4 +3,8 @@ authors = ["Giannin"]
 language = "en"
 multilingual = false
 src = "src"
-title = "WebPr-Toolbox"
+title = "Toolbox"
+
+[output.html]
+default-theme="light"
+preferred-dark-theme="coal"
