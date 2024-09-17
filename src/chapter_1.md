@@ -1,1 +1,6 @@
-# Chapter 1
+# Functions in JavaScript
+
+
+```js
+
+```
