@@ -28,7 +28,7 @@ const return = () => 1;
 
 // BUT THIS RETURN UNDEFINED! DONT DO THIS!
 function noReturn()     { 1; }
-const noReturn2 = () => { 1; }; // noch nicht das, was wir brauchen
+const noReturn2 = () => { 1; };
 ```
 
 As mention previously, functions are essentially just an object. This means we can also define functions as variables or even put them into an array.
