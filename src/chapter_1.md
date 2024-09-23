@@ -17,7 +17,7 @@ But they can also be written in other ways, because they are essentially just re
 const myCoolFunction => (a,b) => { return a + b; };
 
 // With no arguments, always returns 1
-const noArgs => () => { 1; };
+const noArgs => () => { return 1; };
 ```
 
 Those ways of writing functions also enables that we can write functions in JS, that return something without using the `return` statement.
@@ -38,7 +38,7 @@ const myfun = fun1;
 const funs = [null, undefined, fun1];
         
 // The function can then be called like this
-funs[1]()
+funs[2]()
 ```
 
 That also allows us to pass functions as arguments to other functions. Kinda like Lambda expressions in Java.
