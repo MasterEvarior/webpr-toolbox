@@ -5,34 +5,34 @@ JavaScript logging is similar to logging in basically every other language.
 JavaScript offers several built-in logging methods, each with a specific purpose. The most commonly used are:
 
 ### Log
+Used for general output of information to the console. It's often used for basic debugging or status messages.
 ```js
 console.log('Just general output');
 ```
-Used for general output of information to the console. It's often used for basic debugging or status messages.
 
 ### Info
+Used to display informational messages that are not errors but important to note.
 ```js
 console.info('Some basic information');
 ```
-Used to display informational messages that are not errors but important to note.
 
 ### Warn
+Used to indicate potential problems or warnings that don't stop the execution of the program but might lead to issues.
 ```js
 console.warn('Hey this could be important');
 ```
-Used to indicate potential problems or warnings that don't stop the execution of the program but might lead to issues.
 
 ### Error
+Used to log error messages when something goes wrong, especially when an exception occurs.
 ```js
 console.error('SOMETHING HAS GONE WRONG');
 ```
-Used to log error messages when something goes wrong, especially when an exception occurs.
 
 ### Debug
+Used for detailed debugging information. In some browsers, these messages may be hidden by default unless you enable verbose logging.
 ```js
 console.debug('Psst, I am a sneaky message');
 ```
-Used for detailed debugging information. In some browsers, these messages may be hidden by default unless you enable verbose logging.
 
 ## Logging Objects
 It is also possible to pass entire objects or arrays of objects to the logging functions. These then get logged out nicely in JSON.
