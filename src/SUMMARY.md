@@ -7,3 +7,4 @@
 - [IIFE](./4_iife.md)
 - [Lambda Calculus](./5_lambda.md)
 - [Logging](./6_logging.md)
+- [Lambda II](./7_lambda_2.md)
