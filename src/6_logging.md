@@ -30,7 +30,7 @@ console.debug('Psst, I am a sneaky message');
 Used for detailed debugging information. In some browsers, these messages may be hidden by default unless you enable verbose logging.
 
 ## Logging Objects
-It is also possible to pass entire objects or arrays of objects to the logging functions. These then get logged out nicely, in JSON.
+It is also possible to pass entire objects or arrays of objects to the logging functions. These then get logged out nicely in JSON.
 ```js
 const user = {
   name: 'Alice',
