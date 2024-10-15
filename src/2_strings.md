@@ -30,7 +30,7 @@ This is {x} template
 A more obscure way to declare strings is to use forward slashes(`/`), like so:
 ```js
 /test/
-//put this into an constructor
+//put this into a constructor
 String(/eins/)
 ```
 Huh? Why does this work? What does this do?
