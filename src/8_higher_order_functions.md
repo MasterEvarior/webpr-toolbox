@@ -36,8 +36,7 @@ The `reduce()` function executes a provided reducer function on each element of 
 ```js
 const sum = (accu, cur) => accu + cur;
 
-[1,2,3].reduce();
-[1,2,3].reduce();
+[1,2,3].reduce(sum);// output: 6 (which is 1 + 2 + 3)
 ``` 
 
 ## Apply Multiple Functions
