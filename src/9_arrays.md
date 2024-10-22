@@ -30,16 +30,6 @@ console.log(firstFruit);  // output: "apple"
 console.log(fruits);      // output: ["banana", "orange"]
 ```
 
-## shift()
-Removes the first element from an array and returns that element.
-  
-```javascript
-let fruits = ["apple", "banana", "orange"];
-let firstFruit = fruits.shift();
-console.log(firstFruit);  // output: "apple"
-console.log(fruits);      // output: ["banana", "orange"]
-```
-
 ## unshift()
 Adds one or more elements to the beginning of an array and returns the new length of the array.
   
@@ -47,4 +37,39 @@ Adds one or more elements to the beginning of an array and returns the new lengt
 let fruits = ["banana", "orange"];
 fruits.unshift("apple");
 console.log(fruits);  // output: ["apple", "banana", "orange"]
+```
+
+## slice()
+Is used to slice (hence the name) a part out of the array.
+
+```javascript
+let fruits = ["banana", "orange", "grape"];
+const sliced = fruits.slice(1,3); // 1 is inclusive, 3 not
+console.log(sliced);  // output: [ "orange", "grape" ]
+
+const sliced2 = fruits.slice(1); // until the end of the array
+console.log(sliced2);  // output: [ "orange", "grape" ]
+
+const sliced3 = fruits.slice(0, -1); // until -1 the length of the array
+console.log(sliced3);  // output: [ "banana", "orange" ]
+```
+
+## splice()
+Changes the contents of an array by removing, replacing, or adding elements at specific positions.
+```javascript
+// removing elements
+let fruits = ["apple", "banana", "orange", "grape"];
+fruits.splice(1, 2);  // Removes 2 elements starting from index 1
+console.log(fruits);  // Output: ["apple", "grape"]
+
+// adding elements
+let fruits = ["apple", "banana", "grape"];
+fruits.splice(2, 0, "orange", "kiwi");  // Adds "orange" and "kiwi" at index 2
+console.log(fruits);  // Output: ["apple", "banana", "orange", "kiwi", "grape"]
+
+//replacing elements
+let fruits = ["apple", "banana", "orange"];
+fruits.splice(1, 1, "kiwi");  // Replaces 1 element at index 1 with "kiwi"
+console.log(fruits);  // Output: ["apple", "kiwi", "orange"]
+
 ```
