@@ -73,3 +73,14 @@ fruits.splice(1, 1, "kiwi");  // Replaces 1 element at index 1 with "kiwi"
 console.log(fruits);  // Output: ["apple", "kiwi", "orange"]
 
 ```
+
+## Create arrays
+With the `from` method, you can create an array from every object that has a `length` property
+```javascript
+Array.from("abc") //output ["a", "b", "c" ]
+Array.from({length: 2}) //output [undfined, undefined]
+```
+This can also be used to create very large arrays in an easy way.
+```javascript
+Array.from({length: 1000}, (it, idx) => idx) //output [0, 1, ..., 999 ]
+```

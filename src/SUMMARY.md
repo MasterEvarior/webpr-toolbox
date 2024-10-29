@@ -7,6 +7,7 @@
 - [Functions](./1_functions.md)
 - [Scope](./3_scope.md)
 - [Objects](./11_objects.md)
+- [Classes](./12_classes.md)
 # Basics
 - [IIFE](./4_iife.md)
 - [Lambda Calculus](./5_lambda.md)
