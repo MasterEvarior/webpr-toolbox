@@ -9,6 +9,7 @@
 - [Objects](./11_objects.md)
 - [Classes](./12_classes.md)
 - [Types](./13_types.md)
+- [Callbacks](./14_callbacks.md)
 # Advanced
 - [IIFE](./4_iife.md)
 - [Lambda Calculus](./5_lambda.md)
@@ -17,3 +18,5 @@
 # Usage 
 - [Logging](./6_logging.md)
 - [Scripting](./10_scripting.md)
+- [Promises](./15_promises.md)
+- [Async/Await](./16_async.md)
