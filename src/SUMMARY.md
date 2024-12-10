@@ -21,3 +21,4 @@
 - [Promises](./15_promises.md)
 - [Async/Await](./16_async.md)
 - [Modules](./17_modules.md) 
+- [Regular Expressions](./18_regex.md)
